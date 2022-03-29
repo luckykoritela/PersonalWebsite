@@ -192,6 +192,12 @@ nav {
 #submit {
   font-size: 1em;
 }
+.label
+{
+  margin: 0px;
+  color: white;
+  font-size: 15px;
+}
 #foot {
   margin: -15px;
   background-color: #1f2833;
