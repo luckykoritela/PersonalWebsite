@@ -75,6 +75,48 @@ nav {
   -o-background-size: cover;
   background-size: cover;
 }
+.intro-info img {
+  height: 10rem;
+  width: 10rem;
+  border: 3px solid #66fcf1;
+  border-radius: 50%;
+  float: left;
+}
+.proj-name{
+  margin: 30px;
+}
+#console{
+  width: 400px;
+  height: 510px;
+  color: white;
+  padding: 40px;
+  background-color: #3b3b3b;
+}
+#code {
+  border-radius: 5px;
+  width: 480px;
+  margin: 0 auto;
+  padding-top: 15px;
+  background: #ccc;
+  height: 500px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 14px;
+  color: #fafafa;
+  margin-bottom:165px;
+  float: left;
+}
+#about{
+  background-color: #00515e;
+  margin: -15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span.answer{
+  color: #66fcf1;
+}
 #resume {
   background-color: #00515e;
   margin: -15px;
@@ -82,22 +124,32 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #00515e, black);
+  float: left;
+  margin-right:150px;
+  /* background-image: linear-gradient(to bottom right, #00515e, black); */
+}
+#check_res {
+  text-align: center;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 #check {
+  margin-top:50px;
   font-size: 2em;
   color: #1f2833;
   font-weight: bold;
 }
-#resume-img {
-  display: flex;
-  height: 70%;
-  filter: blur(1px);
-  padding-bottom: 5%;
+#res_img{
+  width:314px;
 }
 .template {
   background-color: #1f2833;
-  color: #66fcf1;
+  color: white;
   font-size: 1.3em;
   font-weight: bold;
   display: flex;
@@ -111,7 +163,7 @@ nav {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 25px;
   color: black;
   justify-items: center;
   align-items: center;
@@ -125,7 +177,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: indigo;
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #00515e);
+  background-color: #45a29e;
 }
 .item:hover {
   color: indigo;
@@ -176,7 +228,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #00515e, black);
 }
 #conme {
   margin: 0px 5% 5% 5%;
@@ -189,12 +240,10 @@ nav {
   justify-content: center;
   align-items: center;
 }
-#submit {
-  font-size: 1em;
-}
 .label
 {
-  margin: 0px;
+  margin-top: -20px;
+  margin-bottom: 5px;
   color: white;
   font-size: 15px;
 }
